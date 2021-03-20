@@ -17,6 +17,7 @@ namespace Celebrations
         public Home()
         {
             InitializeComponent();
+            comboBox1.SelectedItem = comboBox1.Items[0];
         }
 
         private void opener_Click(object sender, EventArgs e)
